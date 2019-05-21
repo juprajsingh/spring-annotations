@@ -8,7 +8,8 @@ import org.springframework.stereotype.Component;
 public class TennisCoach implements Coach {
 
 	@Autowired 
-	@Qualifier("happyFortuneService")
+	// For the Qualifier the First letter has to be lowercase, RandomFortuneService doesn't work, you need to use randomFortuneService
+	@Qualifier("randomFortuneService")
 	private FortuneService fortuneService; // This is field injection with the @Autowired above it
 	
 	
