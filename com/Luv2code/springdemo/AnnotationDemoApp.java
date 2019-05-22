@@ -4,6 +4,9 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class AnnotationDemoApp {
 
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		
 		// read spring config file
