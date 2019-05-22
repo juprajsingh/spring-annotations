@@ -4,7 +4,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 //import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class JavaConfigDemoApp {
-
+// CHANGING SOMETHING FOR GIT HUB
 	public static void main(String[] args) {
 		
 		//read spring  config java class
